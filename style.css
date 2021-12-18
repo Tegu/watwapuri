@@ -1,0 +1,29 @@
+html {
+  background-color: #eeeeee;
+}
+
+body {
+  max-width: 35em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  padding: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  box-shadow: 0em -0em 0.75em #111111;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  height: 2em;
+}
+
+li {
+  cursor: grab;
+  line-height: 1.5;
+}

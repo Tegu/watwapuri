@@ -51,7 +51,12 @@ window.addEventListener('load', function () {
     container.innerHTML = '';
     container.appendChild(list);
 
-    var sortable = Sortable.create(list);
+    var sortable = Sortable.create(
+      list,
+      {
+        animation: 100,
+      },
+    );
 
     to_sorter.disabled = true;
     to_sorter.style.display = 'none';
