@@ -63,6 +63,7 @@ window.addEventListener('load', function () {
     from_sorter.disabled = false;
     from_sorter.style.display = 'inline';
     entry_area.disabled = true;
+    entry_area.style.display = 'none';
   });
 
   from_sorter.addEventListener('click', function() {
@@ -98,9 +99,10 @@ window.addEventListener('load', function () {
     to_sorter.style.display = 'inline';
     from_sorter.disabled = true;
     from_sorter.style.display = 'none';
+    entry_area.disabled = false;
+    entry_area.style.display = 'inline';
     var container = document.getElementById('sorter-container');
     container.innerHTML = '';
     var entry_area = document.getElementById('entries');
-    entry_area.disabled = false;
   });
 });
