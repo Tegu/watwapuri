@@ -1,4 +1,5 @@
 html {
+  font-family: sans-serif;
   background-color: #eeeeee;
 }
 
@@ -8,9 +9,10 @@ body {
   margin-right: auto;
   background-color: #ffffff;
   padding: 1em;
-  margin-top: 0em;
+  margin-top: 0.5em;
   margin-bottom: 0em;
   box-shadow: 0em -0em 0.75em #111111;
+  border-radius: 0.5em;
 }
 
 h1 {
